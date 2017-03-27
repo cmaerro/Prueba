@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lytMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.prueba.prueba.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Escriba algo..."
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="218dp"
+        android:layout_height="135dp"
+        android:editable="true"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="131dp"
+        android:layout_height="75dp"
+        android:text="Touch!!"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="352dp" />
+</LinearLayout>
